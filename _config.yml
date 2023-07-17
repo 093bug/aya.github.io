@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "zh-CN"
-title                    : "lunwen_Zhou / Maths master"
+locale                   : "en-US"
+title                    : "lunwen_Zhou / U3U"
 title_separator          : "-"
 name                     : &name "lunwen_Zhou"
 description              : &description "personal description"
-url                      : https://093bug.github.io/
+url                      : https://093bug.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "093bug/aya.github.io"
+repository               : "093BUG/aya.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : &twitter
 facebook:
   username               :
   app_id                 :
@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "lunwen_Zhou"
   avatar           : "miku.png"
-  bio              : "Nice to meet youuuuuuuuuuuuuuu TT 我不想上班我要打游戏 什么你问我老婆是谁那当然是mikuuuuuuu 世界第一miku激推"
+  bio              : "ni hao wa da xi wa zhong guo ren"
   location         : "Guangzhou,China"
   employer         :
-  pubmed           : 
-  googlescholar    : 
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
-  researchgate     : 
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/093bug"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : 
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
